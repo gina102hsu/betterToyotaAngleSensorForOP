@@ -45,3 +45,8 @@ Extend the hole in the EPS motor shaft, tap it to M3, align the magnet holder, a
 EDIT: You should be able to affix the magnet holder without any drilling or permanant modifications. Erich is working on an alternate part to enable this, and possibly an installation tool.
 
 And then refingerprint your car, add the signals to cabana, offset the angle in OP, then BOOM! You are done.
+
+ZSS schematic
+----
+<img src="https://github.com/gina102hsu/betterToyotaAngleSensorForOP/blob/master/zss_sch.png"></a>
+from jsh384@discord
