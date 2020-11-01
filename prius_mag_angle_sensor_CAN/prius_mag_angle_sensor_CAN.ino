@@ -1,15 +1,15 @@
-#include <Encoder_Buffer.h>
-#include <can.h>
-#include <mcp2515.h>
+#include "Encoder_Buffer.h"
+#include "can.h"
+#include "mcp2515.h"
 #include <SPI.h>
 
 //CAN
 struct can_frame canMsg1;
 struct can_frame canMsg2;
-MCP2515 mcp2515(3);
+MCP2515 mcp2515(7);
 
 //ANGSENSOR
-#define EncoderCS1 10
+#define EncoderCS1 8
 int32_t encoder1Reading = 0;
 int32_t lastencoder1Reading = 0;
 int32_t rate = 0;
@@ -21,6 +21,7 @@ void setup() {
   Serial.begin(115200);
   SPI.begin();
 
+  
   //INIT CAN
   mcp2515.reset();
   mcp2515.setBitrate(CAN_500KBPS, MCP_8MHZ); //8Mhz oscillator
@@ -28,6 +29,8 @@ void setup() {
   
   //INIT ANGSENSOR
   Encoder1.initEncoder();
+  pinMode(5, INPUT);
+  pinMode(6, INPUT);
 }
 
 void loop() {
@@ -66,7 +69,15 @@ void loop() {
   //mcp2515.sendMessage(&canMsg2); //Only send message 1. Reserve for future use!
 
   //Serial.println(canMsg1.data[4]);
-  
+  Serial.println(encoder1Reading);
+  /*
+  int A,B;
+  A=digitalRead(6);
+  B=digitalRead(5);
+  Serial.print("A:");
+  Serial.println(A);
+  Serial.print("B:");
+  Serial.println(B);*/
   delay(10);
 
 }
