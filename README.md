@@ -27,6 +27,8 @@ https://github.com/autowp/arduino-mcp2515
 
 Single LS7366R Quadrature Encoder Buffer
 https://www.superdroidrobots.com/shop/item.aspx/single-ls7366r-quadrature-encoder-buffer/2397/
+7366R可以選用下面這張板子也可以。 可以跟as5047s一起在digikey上買
+https://www.digikey.tw/products/zh?keywords=Ls7366r
 
 Library for Encoder buffer
 https://github.com/SuperDroidRobots/Encoder-Buffer-Library
