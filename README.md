@@ -27,7 +27,9 @@ https://github.com/autowp/arduino-mcp2515
 
 Single LS7366R Quadrature Encoder Buffer
 https://www.superdroidrobots.com/shop/item.aspx/single-ls7366r-quadrature-encoder-buffer/2397/
+
 7366R可以選用下面這張板子也可以。 可以跟as5047s一起在digikey上買
+
 https://www.digikey.tw/products/zh?keywords=Ls7366r
 
 Library for Encoder buffer
@@ -47,6 +49,10 @@ Extend the hole in the EPS motor shaft, tap it to M3, align the magnet holder, a
 EDIT: You should be able to affix the magnet holder without any drilling or permanant modifications. Erich is working on an alternate part to enable this, and possibly an installation tool.
 
 And then refingerprint your car, add the signals to cabana, offset the angle in OP, then BOOM! You are done.
+
+ 安裝說明可以參考下面的影片
+
+https://youtu.be/XS66gC_mQtE
 
 ZSS schematic
 ----
