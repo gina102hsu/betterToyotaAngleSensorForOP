@@ -56,5 +56,5 @@ https://youtu.be/XS66gC_mQtE
 
 ZSS schematic
 ----
-<img src="https://github.com/gina102hsu/betterToyotaAngleSensorForOP/blob/master/zss_sch.png"></a>
+<img src="https://github.com/gina102hsu/betterToyotaAngleSensorForOP/blob/master/1609770480622.jpg"></a>
 from jsh384@discord
